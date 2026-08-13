@@ -793,12 +793,14 @@ footer a {
     }
 
     .project-card {
-        grid-template-columns: 45px 1fr;
-        gap: 1rem;
+        grid-template-columns: 40px 1fr 32px;
+        gap: .8rem;
     }
 
-    .project-card > .project-arrow {
-        display: none;
+    .project-arrow {
+        width: 32px;
+        height: 32px;
+        font-size: .85rem;
     }
 
     /* Ajuste para caber o e-mail longo perfeitamente no celular */
